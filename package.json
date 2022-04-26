@@ -6,12 +6,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "next lint"
   },
   "author": "",
   "dependencies": {
     "next": "^12.1.5",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-next": "^12.1.5",
+    "eslint-config-prettier": "^8.5.0"
   }
 }
